@@ -31,6 +31,32 @@ a {
 	text-align: center;
 }
 
+.glyphicon.glyphicon-map-marker {
+	padding: 4px;
+}
+
+.menuoptions {
+	display: none;
+    position: absolute;
+}
+
+.menuoptions strong {
+	font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+/*.menuoptions p {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#menu:hover .menuoptions {
+	display: block;
+}*/
+
 .main {
 	font-size: 35px;
 	font-weight: 600;
@@ -43,19 +69,19 @@ body {
 	background-image: url(../images/2coffees.jpg);
 	width: 100%;
   	background-repeat: no-repeat;
+  	 background-size: 101% 180%;
 }
 
 footer p {
 	text-align: center;
-	border: 1px solid;
-	border-radius: 10px;
+	padding: 5px;
 	right: 5px;
     margin-left: -5px;
     width: 100%;
     position: absolute;
     bottom: 0;
     margin-bottom: 0px;
-    color: black;
-    font-weight: 300;
-    background-color: #C86428;
+    color: #D2691E;
+    font-weight: 400;
+    opacity: 0.8;
 }
