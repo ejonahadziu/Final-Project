@@ -1,0 +1,61 @@
+header {
+	margin: 15px;
+	font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+header h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	margin: 0 0 0 40px;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+ul {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #C86428;
+}
+
+.navitems {
+	text-align: center;
+}
+
+.main {
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	text-align: center;
+	margin: 100px;
+}
+
+body {
+	background-image: url(../images/2coffees.jpg);
+	width: 100%;
+  	background-repeat: no-repeat;
+}
+
+footer p {
+	text-align: center;
+	border: 1px solid;
+	border-radius: 10px;
+	right: 5px;
+    margin-left: -5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 300;
+    background-color: #C86428;
+}
