@@ -9,6 +9,14 @@ $(document).ready(function() {
 		}
 	});
 
+	$('#about').on({
+		mouseenter: function () {
+			$('.abouttext').show();
+		},
+		mouseleave: function () {
+			$('.abouttext').hide();
+		}
+	});
 
 
 });
