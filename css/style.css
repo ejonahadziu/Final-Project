@@ -24,7 +24,8 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #C86428;
+	color: #6F4E37;
+	font-weight: 600;
 }
 
 .navitems {
@@ -76,13 +77,15 @@ a {
 	font-family: 'Libre Barcode 128 Text', cursive;
 	text-align: center;
 	margin: 100px;
+	/*word-wrap: break-word;
+	width: 20em; */
 }
 
 body {
 	background-image: url(../images/2coffees.jpg);
 	width: 100%;
   	background-repeat: no-repeat;
-  	 background-size: 101% 180%;
+  	background-size: 100% 200%;
 }
 
 footer p {
@@ -93,8 +96,33 @@ footer p {
     width: 100%;
     position: absolute;
     bottom: 0;
-    margin-bottom: 0px;
-    color: #D2691E;
+    margin-bottom: -5px;
+    color: #C86428;
     font-weight: 400;
     opacity: 0.8;
 }
+
+#prev {
+	position: absolute;
+    top: 30%;
+    display: block;
+    width: 25%;
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+#next {
+	position: absolute;
+    top: 30%;
+    display: block;
+    width: 139%;
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+#googleMap {
+	display: none;
+}
+

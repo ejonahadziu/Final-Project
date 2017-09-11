@@ -43,7 +43,11 @@
 							<p>Iced Frappuccino</p>
 							<p>Cold Brew</p>
 						</div>
-					<li><a id="location" href="#"><span class="glyphicon glyphicon-map-marker"></span>Store Location</a></li>
+					<li><a id="location" href="#"><span class="glyphicon glyphicon-map-marker"></span>Store Location</a>
+						<div id="googleMap">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3979655037983!2d-74.00144938494877!3d40.75327097932737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259b3e63dfd9f%3A0xbc3d012268c0b908!2s450+West+33rd+Street%2C+New+York%2C+NY+10001!5e0!3m2!1sen!2sus!4v1505092453061" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</li>
 					<li><a id="about" href="#">About</a></li>
 						<div class="abouttext">
 							<Strong>Who we are</Strong>
@@ -51,8 +55,12 @@
 						</div>
 		</header>
 			<div class="main">
-				<p>"With enough coffee anything is possible"</p>
-			</div>
+				<p id="quote" class="quote">"With enough coffee anything is possible"</p>
+				<!-- <p>"Put your hair up in a bun, drink some coffee and handle it"</p>
+				<p>"I only drink coffee on days ending in Y"</p> -->
+			<span class="arrows" id="prev"> &#8592</span>
+			<span class="arrows" id="next"> &#8594</span>
+			</div> 
 		<footer>
 			<p class="copyright">&copy 2017 ejona's coffee. Made in NYC.</p>
 		</footer>
